@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — HDS B8 Gmail Fallback</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 640px; margin: 4rem auto; padding: 0 1.5rem; line-height: 1.6; color: #1a1a1a; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.1rem; margin-top: 2rem; }
+  a { color: #0a58ca; }
+  footer { margin-top: 3rem; font-size: 0.85rem; color: #666; }
+</style>
+</head>
+<body>
+<h1>Privacy Policy</h1>
+<p>This policy covers the "HDS B8 Gmail Fallback" Google API client, a personal automation
+built and operated by a single individual for their own home-network monitoring system.
+It is not a public product, has no other users, and is not distributed to anyone else.</p>
+
+<h2>What it does</h2>
+<p>The client sends one automated email, via the Gmail API's
+<code>https://www.googleapis.com/auth/gmail.send</code> scope, when a monitoring node in the
+operator's own home-network stack loses contact with another node it is watching, and again
+when contact recovers. That is its only function.</p>
+
+<h2>Data accessed</h2>
+<p>The client holds only the <code>gmail.send</code> scope. It cannot read, search, list, or
+delete any email in the connected mailbox, and it does not access any other Google data
+(contacts, calendar, drive, etc.). The content of the emails it sends is limited to a
+timestamp and the name of the monitoring node involved — no personal, financial, or
+third-party data of any kind.</p>
+
+<h2>Data storage and retention</h2>
+<p>No email content or Google account data is stored by this client beyond what is needed to
+authenticate the single send operation. OAuth credentials are stored locally, encrypted at
+rest, on hardware the operator personally controls, and are never transmitted to any third
+party.</p>
+
+<h2>Data sharing</h2>
+<p>No data is shared with any third party. There is no advertising, analytics, or other
+integration.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy can be sent to <a href="mailto:backed-mug-suburb@duck.com">backed-mug-suburb@duck.com</a>.</p>
+
+<footer>Last updated 2026-09-20.</footer>
+</body>
+</html>
